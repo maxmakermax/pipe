@@ -9,7 +9,7 @@ install_node() {
 
     read -p "Введите ваш адрес Solana: " SOLANA_KEY
 
-    screen -dmS Pipe bash -c "./pop --ram 4 --max-disk 100 --cache-dir /data --pubKey $SOLANA_KEY --signup-by-referral-route eae75702c2eb1b0a"
+    screen -dmS Pipe bash -c "./pop --ram 4 --max-disk 100 --cache-dir /data --pubKey $SOLANA_KEY --signup-by-referral-route 625d294142738d3a"
 
     sleep 2
     echo "Нода запущена в screen 'Pipe'. Используйте 'screen -r Pipe' для просмотра."
